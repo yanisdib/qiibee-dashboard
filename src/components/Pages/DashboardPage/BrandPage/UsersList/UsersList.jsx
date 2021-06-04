@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { updateUsersTokenRequest } from '../../../../../actions/users';
 
-import InputButton from '../../../../Button/InputButton';
+import InputButton from '../../../../Button/InputButton/InputButton';
 
 export default function UsersList({ auth, followers }) {
     const [selectedUsers, setSelectedUsers] = useState([]);
@@ -33,7 +33,7 @@ export default function UsersList({ auth, followers }) {
     const followersList = followers.length > 0 ? followers.map((follower, i) => {
         const userBrandData = follower.isFollowing.find(data => data.symbol === auth.brandData.symbol);
         return (
-            <div className="row align-items-center justify-content-start mt-3">
+            <div key={`follower-${i}`} className="row align-items-center justify-content-start mt-3">
                 <div className="col-1">
                     <input type="checkbox" id={`user-${i}`} name={follower.email} onChange={onUserChecked} />
                 </div>

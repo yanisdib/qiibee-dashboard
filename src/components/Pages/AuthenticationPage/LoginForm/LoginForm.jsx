@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import useInput from '../../../../hooks/useInput';
 import { css } from '@emotion/css';
 
-import InputButton from '../../../Button/InputButton';
+import InputButton from '../../../Button/InputButton/InputButton';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import { checkEmail, checkPassword } from '../../../../utils/form-validators';
 

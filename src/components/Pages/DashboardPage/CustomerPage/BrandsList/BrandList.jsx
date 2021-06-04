@@ -1,15 +1,12 @@
 import { css } from '@emotion/css';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
-import { updateUsersTokenRequest } from '../../../../../actions/users';
 
 import FollowButton from '../../../../Button/FollowButton/FollowButton';
 import ProfileButton from '../../../../Button/ProfileButton/ProfileButton';
 
 import PersonAddOutlinedIcon from '@material-ui/icons/PersonAddOutlined';
-import { useEffect } from 'react';
 import { updateFollowingRequest } from '../../../../../actions/auth';
-import { getBrandsRequest } from '../../../../../actions/brands';
 
 export default function BrandsList({ brands, isFollowed }) {
     const dispatch = useDispatch();    

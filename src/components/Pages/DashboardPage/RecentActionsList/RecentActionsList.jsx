@@ -21,7 +21,7 @@ export default function RecentActionsList() {
         }
     ];
 
-    const renderRecentActions = recentActions.map(recentAction => {
+    const renderRecentActions = recentActions.map((recentAction, i) => {
         const { logo, action, from } = recentAction;
         const path = from
             .replace(/\s/g, '')
@@ -29,7 +29,7 @@ export default function RecentActionsList() {
         switch (action) {
             case 'follow':
                 return (
-                    <div className="row mt-2 ps-3 align-items-center">
+                    <div key={`action-item-${i}`} className="row mt-2 ps-3 align-items-center">
                         <div className={`col-2 ${css`
                                 background-image: url(${logo});
                                 background-size: cover;
@@ -49,7 +49,7 @@ export default function RecentActionsList() {
                 );
             case 'redeem':
                 return (
-                    <div className="row mt-2 ps-3 align-items-center">
+                    <div key={`action-item-${i}`} className="row mt-2 ps-3 align-items-center">
                         <div className={`col-2 ${css`
                                 background-image: url(${logo});
                                 background-size: cover;
@@ -69,7 +69,7 @@ export default function RecentActionsList() {
                 );
             case 'reward':
                 return (
-                    <div className="row mt-2 ps-3 align-items-center">
+                    <div key={`action-item-${i}`} className="row mt-2 ps-3 align-items-center">
                         <div className={`col-2 ${css`
                                 background-image: url(${logo});
                                 background-size: cover;

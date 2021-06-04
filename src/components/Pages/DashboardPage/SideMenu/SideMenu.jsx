@@ -80,7 +80,7 @@ export default function SideMenu() {
         return menuItems.map((item, i) => {
             const Icon = item.icon;
             return (
-                <div className={`item-${i} mt-3 mb-3`}>
+                <div key={`item-menu-${i}`} className={`item-${i} mt-3 mb-3`}>
                     <div className="col-1 menu-item" onClick={item.onClick}>
                         <Link to={`${item.uri}`}>
                             <Icon />
