@@ -1,0 +1,8 @@
+import { shallow } from "enzyme";
+import AuthenticationPage from "../../../components/Pages/AuthenticationPage/AuthenticationPage";
+
+
+test('should generate AuthenticationPage correctly', () => {
+    const wrapper = shallow(<AuthenticationPage />)
+    expect(wrapper).toMatchSnapshot();
+});

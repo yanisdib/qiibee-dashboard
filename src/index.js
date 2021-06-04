@@ -1,15 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import { getUserSessionRequest } from './actions/auth';
+import reportWebVitals from './reportWebVitals';
+import AppRouter from './routers/AppRouter';
+import configureStore from './store/configureStore';
+
+import './assets/styles/style.scss';
+
+
+const store = configureStore();
+const userCookie = localStorage.getItem('qiibee-user') || sessionStorage.getItem('qiibee-user');
+
+const launchApp = async () => {
+  if (!!userCookie) {
+    await store.dispatch(getUserSessionRequest(userCookie));
+    return (
+      ReactDOM.render(
+        <React.StrictMode>
+          <Provider store={store}>
+            <AppRouter />
+          </Provider>
+        </React.StrictMode>,
+        document.getElementById('root')
+      )
+    );
+  } else {
+    return (
+      ReactDOM.render(
+        <React.StrictMode>
+          <Provider store={store}>
+            <AppRouter />
+          </Provider>
+        </React.StrictMode>,
+        document.getElementById('root')
+      )
+    );
+  };
+};
+
+launchApp();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

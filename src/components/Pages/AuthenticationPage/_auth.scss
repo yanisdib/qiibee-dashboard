@@ -1,0 +1,164 @@
+.auth-wrapper {
+    @include make-row();
+    display: flex;
+    height: 100vh;
+    .auth-banner {
+        @include make-col-ready();
+        @include media-breakpoint-up(xs) {
+            @include make-col(12);
+            height: inherit;
+        }
+        @include media-breakpoint-up(sm) {
+            @include make-col(12);
+            height: inherit;
+        }
+        @include media-breakpoint-up(md) {
+            @include make-col(12);
+        }
+        @include media-breakpoint-up(lg) {
+            @include make-col(6);
+        }
+        @include media-breakpoint-up(xl) {
+            @include make-col(6);
+        }
+        @include media-breakpoint-up(xxl) {
+            @include make-col(6);
+        }
+    }
+    .app-name {
+        @include make-row();
+        .app-name-wrapper {
+            @include make-col-ready();
+            @include media-breakpoint-up(xs) {
+                @include make-col(12);
+            }
+            @include media-breakpoint-up(sm) {
+                @include make-col(12);
+            }
+            @include media-breakpoint-up(md) {
+                @include make-col(12);
+            }
+            @include media-breakpoint-up(lg) {
+                @include make-col(12);
+            }
+            @include media-breakpoint-up(xl) {
+                @include make-col(12);
+            }
+            @include media-breakpoint-up(xxl) {
+                @include make-col(12);
+            }
+            text-align: center;
+        }
+        h3 {
+            color: $background-text-color;
+        }
+    }
+    .app-phrase {
+        @include make-row();
+        justify-content: center;
+        align-content: center;
+        .app-phrase-wrapper {
+            @include make-col-ready();
+            @include media-breakpoint-up(xs) {
+                @include make-col(10);
+            }
+            @include media-breakpoint-up(sm) {
+                @include make-col(10);
+            }
+            @include media-breakpoint-up(md) {
+                @include make-col(10);
+            }
+            @include media-breakpoint-up(lg) {
+                @include make-col(10);
+            }
+            @include media-breakpoint-up(xl) {
+                @include make-col(10);
+            }
+            @include media-breakpoint-up(xxl) {
+                @include make-col(10);
+            }
+            text-align: center;
+            h1 {
+                color: $background-text-color;
+            }
+        }
+    }
+    .auth-form {
+        @include make-col-ready();
+        @include media-breakpoint-up(xs) {
+            @include make-col(12);
+            height: 100vh;
+        }
+        @include media-breakpoint-up(sm) {
+            @include make-col(12);
+            height: 100vh;
+        }
+        @include media-breakpoint-up(md) {
+            @include make-col(12);
+            height: 100vh;
+        }
+        @include media-breakpoint-up(lg) {
+            @include make-col(6);
+            height: auto;
+        }
+        @include media-breakpoint-up(xl) {
+            @include make-col(6);
+            height: auto;
+        }
+        @include media-breakpoint-up(xxl) {
+            @include make-col(6);
+            height: auto;
+        }
+        align-self: center;
+        .form-header {
+            @include make-row();
+            .form-header-wrapper {
+                @include make-col-ready();
+                @include media-breakpoint-up(xs) {
+                    @include make-col(12);
+                }
+                @include media-breakpoint-up(sm) {
+                    @include make-col(12);
+                }
+                @include media-breakpoint-up(md) {
+                    @include make-col(12);
+                }
+                @include media-breakpoint-up(lg) {
+                    @include make-col(12);
+                }
+                @include media-breakpoint-up(xl) {
+                    @include make-col(12);
+                }
+                @include media-breakpoint-up(xxl) {
+                    @include make-col(12);
+                }
+                text-align: center;
+            }
+        }
+        .form-wrapper {
+            @include make-row();
+            justify-content: center;
+            .form {
+                @include make-col-ready();
+                @include media-breakpoint-up(xs) {
+                    @include make-col(10);
+                }
+                @include media-breakpoint-up(sm) {
+                    @include make-col(10);
+                }
+                @include media-breakpoint-up(md) {
+                    @include make-col(8);
+                }
+                @include media-breakpoint-up(lg) {
+                    @include make-col(8);
+                }
+                @include media-breakpoint-up(xl) {
+                    @include make-col(8);
+                }
+                @include media-breakpoint-up(xxl) {
+                    @include make-col(8);
+                }
+            }
+        }
+    }
+}

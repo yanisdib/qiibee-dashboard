@@ -1,0 +1,67 @@
+.dashboard {
+    @include make-row();
+    max-width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    justify-content: flex-end;
+    .logo-text {
+        color: $secondary-color;
+        font-family: $main-font;
+    }
+    .active-profile-picture {
+        justify-content: center;
+        .profile-picture-thumbnail {
+            width: 50px;
+            height: 50px;
+            border-radius: 0.8rem;
+            background-color: #ffaaea;
+        }
+    }
+    .menu-features {
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        height: 50%;
+        .menu-item {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            align-self: center;
+            justify-content: center;
+            border-radius: 0.8rem;
+            background-color: #ffffff;
+            text-align: center;
+            margin: auto;
+            a {
+                color: #1b1b1b;
+                svg {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .copyright{
+        height: 30%;
+        align-items: flex-end;
+        h6{
+            font-size: 0.8rem;
+        }
+    }
+    .dashboard-overview {
+        background-color: #ffffff;
+        border-top-left-radius: 2rem;
+        @for $i from 1 to 7 {
+            h#{$i} {
+                font-family: $secondary-font;
+            }
+        }
+    }
+    .side-menu {
+        svg {
+            font-size: 2rem;
+        }
+    }
+}

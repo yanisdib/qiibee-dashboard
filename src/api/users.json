@@ -1,0 +1,272 @@
+[
+    {
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "johndoe@qiibee.com",
+        "password": "123Qiibee",
+        "isBrand": false,
+        "isComplete": true,
+        "isFollowing": [
+            {
+                "symbol": "AFR",
+                "tokenOwned": 250
+            },
+            {
+                "symbol": "XBX",
+                "tokenOwned": 8150
+            },
+            {
+                "symbol": "APL",
+                "tokenOwned": 7530
+            },
+            {
+                "symbol": "FTP",
+                "tokenOwned": 250
+            },
+            {
+                "symbol": "ZLD",
+                "tokenOwned": 455
+            }
+        ]
+    },
+    {
+        "firstname": "John",
+        "lastname": "Doenuts",
+        "email": "johndoenuts@qiibee.com",
+        "password": "123Qiibee",
+        "isBrand": false,
+        "isComplete": true,
+        "isFollowing": [
+            {
+                "symbol": "AFR",
+                "tokenOwned": 250
+            },
+            {
+                "symbol": "XBX",
+                "tokenOwned": 8150
+            },
+            {
+                "symbol": "APL",
+                "tokenOwned": 7530
+            },
+            {
+                "symbol": "FTP",
+                "tokenOwned": 250
+            },
+            {
+                "symbol": "ZLD",
+                "tokenOwned": 455
+            }
+        ]
+    },
+    {
+        "firstname": "John",
+        "lastname": "Rambo",
+        "email": "johnrambo@qiibee.com",
+        "password": "123Qiibee",
+        "isBrand": false,
+        "isComplete": true,
+        "isFollowing": [
+            {
+                "symbol": "AFR",
+                "tokenOwned": 250
+            },
+            {
+                "symbol": "XBX",
+                "tokenOwned": 8150
+            },
+            {
+                "symbol": "APL",
+                "tokenOwned": 7530
+            },
+            {
+                "symbol": "FTP",
+                "tokenOwned": 250
+            },
+            {
+                "symbol": "ZLD",
+                "tokenOwned": 455
+            }
+        ]
+    },
+    {
+        "firstname": "Achille",
+        "lastname": "Parmentier",
+        "email": "achillep@qiibee.com",
+        "password": "123Qiibee",
+        "isBrand": false,
+        "isComplete": true,
+        "isFollowing": [
+            {
+                "symbol": "AFR",
+                "tokenOwned": 250
+            },
+            {
+                "symbol": "XBX",
+                "tokenOwned": 8150
+            },
+            {
+                "symbol": "APL",
+                "tokenOwned": 7530
+            },
+            {
+                "symbol": "FTP",
+                "tokenOwned": 250
+            },
+            {
+                "symbol": "ZLD",
+                "tokenOwned": 455
+            }
+        ]
+    },
+    {
+        "firstname": "Blair",
+        "lastname": "France",
+        "email": "blairf@airfrance.com",
+        "password": "123Abc45",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Air France",
+            "symbol": "AFR",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Fafr_logo.jpg?alt=media&token=0f890566-4dfa-43e7-bcd3-e023a4a4174d",
+            "tokenMax": 75645855,
+            "redeem": 15
+        }
+    },
+    {
+        "firstname": "Phil",
+        "lastname": "Spencer",
+        "email": "phils@xbox.com",
+        "password": "123Abcdef",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Microsoft Xbox",
+            "symbol": "XBX",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Fxbx_logo.jpg?alt=media&token=6b3cecda-ed3f-490d-97bb-684231308c4b",
+            "tokenMax": 7145855,
+            "redeem": 15
+        }
+    },
+    {
+        "firstname": "Thomas",
+        "lastname": "Hawk",
+        "email": "thomash@apple.com",
+        "password": "abc",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Apple",
+            "symbol": "APL",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Fapl_logo.jpg?alt=media&token=01799e88-29c9-4d2c-b67b-38d308568f92",
+            "tokenMax": 4866457,
+            "redeem": 30
+        }
+    },
+    {
+        "firstname": "Zangief",
+        "lastname": "Redfield",
+        "email": "zangiefr@capcom.com",
+        "password": "abc",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Capcom",
+            "symbol": "CPM",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Fcpm_logo.jpg?alt=media&token=28662840-2374-4b48-9ecd-9fe1b6b6e223",
+            "tokenMax": 765825,
+            "redeem": 15
+        }
+    },
+    {
+        "firstname": "Arthur",
+        "lastname": "Fnac",
+        "email": "arthurf@fnac.com",
+        "password": "abc",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Fnac",
+            "symbol": "FNC",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Ffnc_logo.jpg?alt=media&token=6917c935-3eaf-4d32-8838-8b79819f3aa2",
+            "tokenMax": 5986457,
+            "redeem": 30
+        }
+    },
+    {
+        "firstname": "Jean",
+        "lastname": "Prandeux",
+        "email": "jeanp@pampers.com",
+        "password": "abc",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Pampers",
+            "symbol": "PAM",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Fpmp_logo.jpg?alt=media&token=ef392078-b47f-43b3-b42c-6e1090508c88",
+            "tokenMax": 44786457,
+            "redeem": 30
+        }
+    },
+    {
+        "firstname": "Jean",
+        "lastname": "Bon",
+        "email": "jeanb@zalando.com",
+        "password": "dfe",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Zalando",
+            "symbol": "ZLD",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Fzld_logo.jpg?alt=media&token=3864ee80-1fc0-44a3-9ec6-7a443cf94605",
+            "tokenMax": 75459,
+            "redeem": 30
+        }
+    },
+    {
+        "firstname": "Henri",
+        "lastname": "Stronks",
+        "email": "henris@fitnesspark.com",
+        "password": "ghi",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Fitness Park",
+            "symbol": "FTP",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Fftp_logo.jpg?alt=media&token=3cccc2f4-7607-4cc9-8bd4-a30c9043c1b6",
+            "tokenMax": 30500,
+            "redeem": 30
+        }
+    },
+    {
+        "firstname": "Carole",
+        "lastname": "Fournier",
+        "email": "carolef@carrefour.com",
+        "password": "klm",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Carrefour",
+            "symbol": "CRF",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Fcfr_logo.jpg?alt=media&token=47c0f9db-d5d1-4cb6-885c-5622e38e170b",
+            "tokenMax": 8562154,
+            "redeem": 30
+        }
+    },
+    {
+        "firstname": "Franck",
+        "lastname": "Geox",
+        "email": "franckg@decathlon.com",
+        "password": "nop",
+        "isBrand": true,
+        "isComplete": true,
+        "brandData": {
+            "name": "Decathlon",
+            "symbol": "DCT",
+            "logoUri": "https://firebasestorage.googleapis.com/v0/b/qiibee-challenge.appspot.com/o/brand_logos%2Fdct_logo.jpg?alt=media&token=3c80a4c0-161b-4d16-bf16-1262649b5fbf",
+            "tokenMax": 1010101,
+            "redeem": 30
+        }
+    }
+]

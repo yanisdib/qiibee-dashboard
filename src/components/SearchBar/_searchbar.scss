@@ -1,0 +1,40 @@
+.searchbar {
+    @include make-col-ready();
+    @include media-breakpoint-up(xs) {
+        @include make-col(12);
+    }
+    @include media-breakpoint-up(sm) {
+        @include make-col(12);
+    }
+    @include media-breakpoint-up(md) {
+        @include make-col(5);
+    }
+    @include media-breakpoint-up(lg) {
+        @include make-col(5);
+    }
+    @include media-breakpoint-up(xl) {
+        @include make-col(5);
+    }
+    @include media-breakpoint-up(xxl) {
+        @include make-col(5);
+    }
+    border: 2px solid $search-bar-color;
+    border-radius: 1rem;
+    color: $search-bar-color;
+    svg {
+        font-size: 1.5rem;
+    }
+    input {
+        border: none;
+        width: 80%;
+        font-size: 1rem;
+        font-weight: 500;
+        &::placeholder {
+            color: $search-bar-color;
+        }
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+}
