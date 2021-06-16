@@ -38,7 +38,7 @@ export default function BrandPage() {
 
     const followersTokenAmount = followers.map(follower => {
         const tokenData = follower.isFollowing.find(token => token.symbol === auth.brandData.symbol);
-        return tokenData.tokenOwned + tokenData.tokenOwned;
+        return tokenData.tokenOwned;
     }).reduce((a, b) => a + b, 0);
 
     return (
