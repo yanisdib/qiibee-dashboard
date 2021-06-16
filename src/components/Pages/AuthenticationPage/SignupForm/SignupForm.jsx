@@ -39,7 +39,7 @@ export default function SignupForm(props) {
                 lastname: lastname,
                 email: email,
                 password: password,
-                isBrand: isBrand
+                isBrand: isBrand === 'true',
             });
         };
     };

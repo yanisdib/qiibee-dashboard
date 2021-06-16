@@ -25,7 +25,13 @@ export default function DashboardPage() {
         color: #ffffff;
     `;
     const userAuthed = useSelector(state => state.auth);
-
+    const renderPage = () => {
+        if (userAuthed.isBrand) {
+            return <BrandPage />;
+        };
+        return <CustomerPage />;
+    };
+console.log(typeof userAuthed.isBrand)
     return (
         <div className="dashboard m-auto">
             <SideMenu />
@@ -56,7 +62,7 @@ export default function DashboardPage() {
                         <RecentActionsList /> {/** would take actions as props from database depending on user authed */}
                     </div>
                 </div>
-                {!userAuthed.isBrand ? <CustomerPage /> : <BrandPage />}
+                {renderPage()}
             </div>
         </div>
     );
