@@ -40,7 +40,9 @@ export const updateUsersTokenEpic = (action$, state$) => action$.pipe(
       selectedUsers.forEach(selectedUser => {
         if (selectedUser === user.email) { // check if the selected user exists
           user.isFollowing.forEach(token => {
-            token.tokenOwned += brand.redeem; // updates the token owned by the current selected user
+            if (token.symbol === brand.symbol) {
+              token.tokenOwned += brand.redeem; // updates the token owned if the brand redeeming exists
+            };
           });
         };
       });
