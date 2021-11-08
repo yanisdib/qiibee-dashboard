@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/qiibee-dashboard/static/css/main.53e7389b.chunk.css",
+    "main.js": "/qiibee-dashboard/static/js/main.7a3c4acf.chunk.js",
+    "main.js.map": "/qiibee-dashboard/static/js/main.7a3c4acf.chunk.js.map",
+    "runtime-main.js": "/qiibee-dashboard/static/js/runtime-main.01ed6e68.js",
+    "runtime-main.js.map": "/qiibee-dashboard/static/js/runtime-main.01ed6e68.js.map",
+    "static/js/2.e8720fe4.chunk.js": "/qiibee-dashboard/static/js/2.e8720fe4.chunk.js",
+    "static/js/2.e8720fe4.chunk.js.map": "/qiibee-dashboard/static/js/2.e8720fe4.chunk.js.map",
+    "static/js/3.7e5d69f2.chunk.js": "/qiibee-dashboard/static/js/3.7e5d69f2.chunk.js",
+    "static/js/3.7e5d69f2.chunk.js.map": "/qiibee-dashboard/static/js/3.7e5d69f2.chunk.js.map",
+    "index.html": "/qiibee-dashboard/index.html",
+    "static/css/main.53e7389b.chunk.css.map": "/qiibee-dashboard/static/css/main.53e7389b.chunk.css.map",
+    "static/js/2.e8720fe4.chunk.js.LICENSE.txt": "/qiibee-dashboard/static/js/2.e8720fe4.chunk.js.LICENSE.txt",
+    "static/media/bg_auth_1080x1920.33cafd02.jpg": "/qiibee-dashboard/static/media/bg_auth_1080x1920.33cafd02.jpg",
+    "static/media/bg_menu.5f86e787.jpg": "/qiibee-dashboard/static/media/bg_menu.5f86e787.jpg",
+    "static/media/qiibee_bg.be0fae87.jpg": "/qiibee-dashboard/static/media/qiibee_bg.be0fae87.jpg",
+    "static/media/user_thumbnail.c5c0d91c.jpg": "/qiibee-dashboard/static/media/user_thumbnail.c5c0d91c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01ed6e68.js",
+    "static/js/2.e8720fe4.chunk.js",
+    "static/css/main.53e7389b.chunk.css",
+    "static/js/main.7a3c4acf.chunk.js"
+  ]
+}
