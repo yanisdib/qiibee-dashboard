@@ -2,6 +2,7 @@
   "name": "qiibee-challenge",
   "version": "0.1.0",
   "private": true,
+  "gh-pages": "https://yanisdib.github.io/qiibee-dashboard/",
   "dependencies": {
     "@emotion/css": "^11.1.3",
     "@material-ui/core": "^4.11.4",
